@@ -1,0 +1,33 @@
+{
+  "name": "smarty-ui-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "dev": "vite",
+    "build": "vite build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@algolia/client-search": "^4.9.1",
+    "@iconify-json/ic": "^1.1.9",
+    "@types/node": "^18.8.3",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "@vue/test-utils": "^2.1.0",
+    "happy-dom": "^7.5.10",
+    "unocss": "^0.45.28",
+    "vite": "^3.1.6",
+    "vitepress": "1.0.0-alpha.19",
+    "vitest": "^0.24.1"
+  },
+  "dependencies": {
+    "vue": "^3.2.40"
+  }
+}
