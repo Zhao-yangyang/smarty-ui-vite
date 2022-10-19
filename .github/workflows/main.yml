@@ -17,6 +17,6 @@ jobs:
       with:
         version: 7.2.1
     - name: Install modules
-      run: pnpm install
+      run: cd smarty-ui-vite && pnpm install
     - name: Run Test
-      run: pnpm run test:run
+      run: cd smarty-ui-vite && pnpm run test:run
