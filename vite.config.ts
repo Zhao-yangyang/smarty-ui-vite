@@ -24,13 +24,15 @@ export default defineConfig({
   build: {
     rollupOptions,
     cssCodeSplit: true,
-    minify: false,
+    minify: "terser", // boolean | 'terser' | 'esbuild'
+    sourcemap: true, // 输出单独 source文件
+    brotliSize: true, // 生成压缩大小报告
     lib: {
       entry: "./src/entry.ts",
       name: "SmartyUI",
       fileName: "smarty-ui",
       // 导出模块格式
-      formats: ["esm"],
+      formats: ["esm", "umd", "iife"],
     },
   },
   test: {

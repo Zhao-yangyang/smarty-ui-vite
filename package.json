@@ -37,6 +37,7 @@
     "happy-dom": "^7.5.10",
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
+    "terser": "^5.15.1",
     "typescript": ">=2.8.0",
     "unocss": "^0.45.28",
     "vite": "^3.1.6",
