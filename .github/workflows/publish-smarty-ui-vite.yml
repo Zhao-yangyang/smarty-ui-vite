@@ -29,4 +29,4 @@ jobs:
           args: '--dry-run'
         with:
           default_branch: "publish-smarty-ui-vite"
-          dir: "smarty-ui-vite"
+          # dir: "smarty-ui-vite"
