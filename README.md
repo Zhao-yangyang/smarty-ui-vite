@@ -1,6 +1,6 @@
 # smarty-ui-vite
 
-Sheep的实践
+Sheep的实践...
 
 
 `pnpm i`
